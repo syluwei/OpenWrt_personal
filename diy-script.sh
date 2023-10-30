@@ -59,7 +59,7 @@ git clone --depth=1 https://github.com/jerrykuku/luci-app-argon-config package/l
 # svn export https://github.com/haiibo/packages/trunk/luci-theme-netgear package/luci-theme-netgear
 
 # 更改 Argon 主题背景
-cp -f $GITHUB_WORKSPACE/images/bg1.jpg package/luci-theme-argon/htdocs/luci-static/argon/img/bg1.jpg
+cp -f https://github.com/syluwei/bg/blob/main/bg.jpg package/luci-theme-argon/htdocs/luci-static/argon/img/bg1.jpg
 
 # SmartDNS
 git clone --depth=1 -b lede https://github.com/pymumu/luci-app-smartdns package/luci-app-smartdns
